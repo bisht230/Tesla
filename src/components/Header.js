@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import CloseIcon from "@mui/icons-material/Close";
-import "material-icons/iconfont/material-icons.css";
 export default function Header(props) {
   const [burgerStatus, setBurgerStatus] = useState(false);
   return (
